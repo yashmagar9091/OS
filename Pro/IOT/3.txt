@@ -1,0 +1,11 @@
+3
+understanding the connection of Raspberry pi combined with camera sensor
+
+import pic camera 
+import time
+Camera=piccamera.pi(Camera())
+Camera.resolution=(640,480)
+Camera.start_preview()
+Time.Sleep(2)
+Camera.Capture(test2.jpg)
+Camera.Stop_preview()

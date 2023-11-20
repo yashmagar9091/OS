@@ -1,0 +1,14 @@
+1
+Problem Statement: Understanding the connectivity of Raspberry-Pi / Adriano with IR sensor. Write an application to detect obstacle and notify user using LED.
+
+Source Code
+
+void setup() {
+// put your setup code here, to run once: pinMode(2,INPUT); pinMode(13,OUTPUT);//LED
+}
+
+void loop() {
+// put your main code here, to run repeatedly: if(digitalRead(2)==LOW){ digitalWrite(13,HIGH);
+}
+else{ digitalWrite(13,LOW);
+}
